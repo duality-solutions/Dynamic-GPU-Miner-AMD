@@ -1,1 +1,3 @@
-# Dynamic-GPU-Miner-AMD-
+# Dynamic-GPU-Miner-AMD
+
+Coming Soon
