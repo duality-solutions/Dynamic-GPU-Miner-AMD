@@ -16,6 +16,7 @@ This fork is only meant to be used to mine Dynamic (DYN) with Argon2d algorithm.
 Please consider supporting this project by donating to these addresses (EhssanD):
 
 **BTC**: 15h2QmsRwwwEdNNC6HbYHJU9mpbLrjUdDK
+
 **DYN**: DKPnTs1s71DtesAvvLMchtsj4gRFxphW55
 
 
