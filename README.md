@@ -1,9 +1,5 @@
 # sgminer-dyn - Dynamic AMD GPU miner 
 
-## Sample command 
-
-sgminer.exe -k argon2d -o server -u walletaddress -p pass -g 2
-
 ## Introduction
 
 An optimized fork of sgminer. This is a multi-threaded multi-pool GPU miner with AMD GPU monitoring,
