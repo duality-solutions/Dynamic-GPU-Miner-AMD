@@ -6,7 +6,7 @@ set GPU_MAX_HEAP_SIZE=100
 
 :: Replace the -o, -u, and -p arguments with your own pool, user, and password.
 :: All three arguments are required.
-sgminer.exe -k argon2d -o stratum+tcp://dyn.noncer.pro:4239 -u DKPnTs1s71DtesAvvLMchtsj4gRFxphW55 -p x -g 2
+sgminer.exe -k argon2d -o stratum+tcp://server:port -u DKPnTs1s71DtesAvvLMchtsj4gRFxphW55 -p x -g 2 --gpu-platform=1
 pause
 
 :: Notes:
