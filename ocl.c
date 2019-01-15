@@ -1128,7 +1128,6 @@ out:
   if (algorithm->type == ALGO_ARGON2D) {
 
       size_t mem_size = (size_t)cgpu->throughput * AR2D_MEM_PER_BATCH;
-      applog(LOG_NOTICE, "C THROUGH %d", cgpu->throughput);
 	  clState->buffer1 = clCreateBuffer(clState->context, CL_MEM_READ_WRITE, mem_size, NULL, &status);
 
 	  if (status != CL_SUCCESS) {
