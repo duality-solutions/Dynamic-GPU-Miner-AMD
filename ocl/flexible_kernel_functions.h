@@ -1,6 +1,11 @@
 #ifndef FLEXIBLE_KERNEL_FUNCTIONS_H
 #define FLEXIBLE_KERNEL_FUNCTIONS_H
+#ifdef __APPLE_CC__
+#include <OpenCL/opencl.h>
+#else
 #include <CL/cl.h>
+#endif
+
 #include "cl_state.h"
 
 // New kernel initialization and enqueue, instead of jumping back and forth in code, decide everything

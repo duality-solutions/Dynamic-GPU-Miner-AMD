@@ -1,6 +1,10 @@
 #ifndef CL_STATE_H
 #define CL_STATE_H
+#ifdef __APPLE_CC__
+#include <OpenCL/opencl.h>
+#else
 #include <CL/cl.h>
+#endif
 
 typedef struct __clState {
 	cl_context context;
