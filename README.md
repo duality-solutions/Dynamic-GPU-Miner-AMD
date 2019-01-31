@@ -20,10 +20,25 @@ Please consider supporting this project by donating to these addresses (EhssanD)
 **DYN**: DKPnTs1s71DtesAvvLMchtsj4gRFxphW55
 
 
+## Linux building
+
+Dependencies
+---------------------
+
+Build requirements:
+
+    sudo apt-get install git autoconf automake libtool build-essential libncurses5-dev libcurl4-gnutls-dev
+
+Update submodules:
+
+	git submodule update --init
+
+Build Command
+--------------------
+
+	autoreconf -fi &&  ./configure --disable-git-version --disable-adl && sudo make && sudo make install
+
+
 ## Windows building
 
 Read instructions `winbuild/README.txt`
-
-## Linux building
-
-Instruction coming soon
