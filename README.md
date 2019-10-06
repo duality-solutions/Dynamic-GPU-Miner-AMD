@@ -15,7 +15,7 @@ This fork is only meant to be used to mine Dynamic (DYN) with Argon2d algorithm.
 
 Install dependencies:
 
-    sudo apt-get install git autoconf automake libtool build-essential libncurses5-dev libcurl4-gnutls-dev
+    sudo apt-get install git autoconf automake libtool build-essential libncurses5-dev libcurl4-gnutls-dev libjansson-dev
 
 Update submodules:
 
